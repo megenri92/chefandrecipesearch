@@ -1,0 +1,128 @@
+body{
+  background-image: url(http://www.myfreephotoshop.com/wp-content/uploads/2015/07/127.jpg);
+  background-attachment: fixed;
+  font-style: oblique;
+}
+
+.page{
+  margin: 50px auto;
+  width: 80%;
+  background-color: beige;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+  .page-header h2{
+    float: left;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .page-header .chef-search {
+    float: right;
+  }
+
+    .page-header .chef-search input {
+      border-radius: 5px;
+      border: 1px solid #eaeaea;
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+
+/*Style search button*/
+    .page-header .chef-search button {
+      border-radius: 5px;
+      border: 1px solid #eaeaea;
+      padding: 8px 15px;
+      font-size: 14px;
+      background-color: green;
+      color: #fff;
+    }
+
+    .page-header .chef-search button:hover {
+      background-color: orange;
+    }
+
+.chef-list {}
+  #noMatch {
+    display: none;
+  }
+
+  .chef-recipe {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid black;
+  }
+
+    .chef-details{
+      width: 50%;
+      float: left;
+      color: black;
+    }
+
+      .chef-details .picture{
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+        margin-right: 14px
+      }
+
+      .chef-details h3{
+        margin: 5px 0 5px 0;
+        font-weight: bold;
+        color: purple;
+      }
+
+      .chef-details .recipe{
+        color: #888;
+        font-size: 20px;
+      }
+
+
+    .external-website{
+      width: 50%;
+      float: left;
+      text-align: right;
+    }
+
+      .external-website .website{
+        margin-top: 15px;
+        display: block;
+        font-size: 18px;
+        color: #999;
+      }
+
+  .chef-recipe:last-child{
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+  }
+
+nav {
+  text-align: center;
+}
+
+.pagination{
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+ 
+  .pagination li{
+    display: inline-block;
+  }
+
+    .pagination li a{
+      border: 1px solid #eaeaea;
+      border-radius: 10px;
+      padding: 5px 15px;
+      text-decoration: none;
+      color: black;
+      margin-right: 5px;
+    }
+
+    .pagination li a.active,
+    .pagination li a:hover{
+      background-color: orange;
+      color: #fff;
+    }
