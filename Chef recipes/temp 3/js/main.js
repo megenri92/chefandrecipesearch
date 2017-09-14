@@ -110,7 +110,7 @@ var searchButton = function() {
 	for (var i = 0; i < allChefs.length; i++) {
 		var chef = $('#chef' + i + ' h3').text();
 		// If there is a match
-		if (chef.indexOf(find) > -1) {
+		if (allChefs[i].innerText.indexOf(find) > -1) {
 			// Turn on chef display
 			chefsToDisplay.push(allChefs[i]);
 			console.log(allChefs[i]);
